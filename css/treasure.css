@@ -1,0 +1,106 @@
+/*!
+ * =====================================================
+ * 一元夺宝自定义css
+ * =====================================================
+ */
+.bg-fff{
+	background: #FFFFFF !important;
+}
+.coupon-xian{
+	background: #2aa515 !important;
+}
+.coupon-border-none{
+	border: none !important;
+}
+ul,li{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*!
+ * 商品列表 ======================================
+ */
+.treasure-list{
+	overflow: hidden;
+	margin: 1px 2px;
+}
+.treasure-list li{
+	position: relative;
+	width: 50%;
+	display: block;
+	float: left;	
+}
+.treasure-list li a{
+	display: block;
+	overflow: hidden;
+	padding: 10px;
+	margin: 2px;
+	background: #FFFFFF;
+}
+.treasure-list li a img{
+	width: 70% !important;
+	display: block;
+	margin: 0 auto;
+}
+.treasure-text h4{
+	font-size: 14px;
+	color: #242424;
+	font-weight: normal;
+} 
+.treasure-text h6{
+	margin-top: 10px;
+} 
+.treasure-list .treasure-progressbar{
+	width: 50%; 
+	height: 6px; 
+	border-radius: 10px; 
+	overflow: hidden;
+	background: #d6d6d6 !important;
+}
+.treasure-progressbar span{
+	background: #2AA515 !important;
+}
+.treasure-plus{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	z-index: 9;
+	cursor: pointer;
+	color: #2AA515 !important;
+	font-size: 28px;
+}
+
+
+
+/*!
+ * 倒计时 ======================================
+ */
+.treasure-count{
+	overflow: hidden;
+}
+.treasure-count span.treasure-jishi{
+    display: block;
+    float: left;
+    font-size: 18px !important;
+    color: #ea8010;
+    line-height: 20px;
+    margin: 0px;
+}
+.treasure-count h6{
+    display: block;
+    float: left;
+    color: #ea8010;
+    line-height: 20px;
+    margin: 0px;
+    margin-right: 6px;
+}
+.treasure-count h4{
+    display: block;
+    float: left;
+    font-size: 16px !important;
+    color: #ea8010;
+    line-height: 20px;
+    margin: 0px;
+}
+

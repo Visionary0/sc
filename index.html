@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>小熊GO首页</title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+	</head>
+
+	<body class="bg-f2f2f2">
+		<!-- 主页面容器 -->
+		<div class="mui-inner-wrap">
+			<!-- 头部标题 -->
+			<header class="mui-bar mui-bar-nav bg-lvse">
+				<a class="mui-icon mui-pull-left index-dizhi">安阳
+					<a class="mui-icon mui-icon-arrowdown mui-pull-left index-dizhi"></a>
+				</a>
+				<a class="mui-icon mui-icon-location mui-pull-left index-dizhi">水治镇</a>
+				<h1 class="mui-title index-biaoti">小熊GO</h1>
+				<a class="mui-pull-right index-qiandao">签到</a>
+				<a class="mui-icon mui-icon-search mui-pull-right index-sousuo"></a>
+			</header>
+
+			<!-- 底部导航 -->
+			<nav class="mui-bar mui-bar-tab">
+				<a href="index.html" class="mui-tab-item mui-active">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">首页</span>
+				</a>
+				<a class="mui-tab-item">
+					<span class="mui-icon mui-icon-videocam"></span>
+					<span class="mui-tab-label">活动</span>
+				</a>
+				<a class="mui-tab-item">
+					<span class="mui-icon mui-icon-email"></span>
+					<span class="mui-tab-label">二手货</span>
+				</a>
+				<a class="mui-tab-item">
+					<span class="mui-icon mui-icon-compose"></span>
+					<span class="mui-tab-label">动态</span>
+				</a>
+				<a class="mui-tab-item">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">我</span>
+				</a>
+			</nav>
+			<!-- 主页面内容容器 -->
+			<div class="mui-content bg-f2f2f2">
+				<!-- 主界面具体展示内容 -->
+
+				<!-- 轮播图 -->
+				<div id="slider" class="mui-slider">
+					<div class="mui-slider-group mui-slider-loop">
+						<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+						<div class="mui-slider-item mui-slider-item-duplicate">
+							<a href="#">
+								<img src="images/lb.jpg">
+							</a>
+						</div>
+						<!-- 第一张 -->
+						<div class="mui-slider-item">
+							<a href="#">
+								<img src="images/lb.jpg">
+							</a>
+						</div>
+						<!-- 第二张 -->
+						<div class="mui-slider-item">
+							<a href="#">
+								<img src="images/lb.jpg">
+							</a>
+						</div>
+						<!-- 第三张 -->
+						<div class="mui-slider-item">
+							<a href="#">
+								<img src="images/lb.jpg">
+							</a>
+						</div>
+						<!-- 第四张 -->
+						<div class="mui-slider-item">
+							<a href="#">
+								<img src="images/lb.jpg">
+							</a>
+						</div>
+						<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+						<div class="mui-slider-item mui-slider-item-duplicate">
+							<a href="#">
+								<img src="images/lb.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="mui-slider-indicator">
+						<div class="mui-indicator mui-active"></div>
+						<div class="mui-indicator"></div>
+						<div class="mui-indicator"></div>
+						<div class="mui-indicator"></div>
+					</div>
+				</div>
+
+				<!-- 九宫格 -->
+				<ul class="mui-table-view mui-grid-view mui-grid-9">
+					<li class="mui-table-view-cell index-width-xs">
+						<a href="coupon.html">
+							<span class="mui-icon mui-icon-home"></span>
+							<div class="index-jgg">优惠劵</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell index-width-xs">
+						<a href="#">
+							<span class="mui-icon mui-icon-email"></span>
+							<div class="index-jgg">团购</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell index-width-xs">
+						<a href="treasure.html">
+							<span class="mui-icon mui-icon-chatbubble"></span>
+							<div class="index-jgg">一元夺宝</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell index-width-xs">
+						<a href="#">
+							<span class="mui-icon mui-icon-location"></span>
+							<div class="index-jgg">限时抢购</div>
+						</a>
+					</li>
+				</ul>
+
+				<!-- 公告 -->				
+				<div class="mui-media-body index-gg">
+					<p class="mui-ellipsis">小熊头条【歌迷汇】中秋佳节狂欢，全场酒水大放送！</p>
+					<span class="mui-icon mui-icon-arrowright"></span>
+				</div>
+
+				<!-- 商品分类 -->
+				<div class="bg-fff">
+					<div class="index-shandiansong">
+						<span class="mui-icon mui-icon-paperplane"></span>
+						<h4 class="">闪电送</h4>
+					</div>
+					<ul class="index-fenlei">
+						<li class="index-yanse1">
+							<a href="#">
+								<span class="mui-icon mui-icon-home"></span>
+								<h5 class="mui-media-body">日用百货</h5>
+							</a>
+						</li>
+						<li class="index-yanse2">
+							<a href="#">
+								<span class="mui-icon mui-icon-email"></span>
+								<h5 class="mui-media-body">果蔬生鲜</h5>
+							</a>
+						</li>
+						<li class="index-yanse3">
+							<a href="#">
+								<span class="mui-icon mui-icon-chatbubble"></span>
+								<h5 class="mui-media-body">烟酒饮料</h5>
+							</a>
+						</li>
+						<li class="index-yanse4">
+							<a href="#">
+								<span class="mui-icon mui-icon-location"></span>
+								<h5 class="mui-media-body">鲜花蛋糕</h5>
+							</a>
+						</li>
+						<li class="index-yanse5">
+							<a href="#">
+								<span class="mui-icon mui-icon-more"></span>
+								<h5 class="mui-media-body">更多</h5>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- 外卖 -->
+				<div class="bg-fff">
+					<div class="index-waimai-box">
+						<div class="index-waimai">
+							<span class="mui-icon mui-icon-paperplane"></span>
+							<h4 class="">外卖</h4>
+						</div>
+						<a href="" class="index-gengduo"> 更多商家>> </a>
+					</div>
+
+					<ul class="mui-table-view mui-table-view-chevron index-list">
+						<li class="mui-media">
+							<a href="" class="index-lianjie">
+								<img class="mui-pull-left index-width" src="images/cbd.jpg">
+								<div class="index-xinxi-box">
+									<h5><i>KTV</i>歌迷汇量贩式KTV水治店</h5>
+									<p>地址：安阳市水治镇松涛路</p>
+									<div class="index-pingjia">
+										<div class="index-star">
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+										</div>
+										<h6>123评价</h6>
+									</div>
+									<div class="index-icon">
+										<ul>
+											<li class="youhui-1">劵</li>
+											<li class="youhui-2">团</li>
+											<li class="youhui-3">减</li>
+											<li class="youhui-4">免</li>
+											<li class="youhui-5">赌</li>
+										</ul>
+									</div>
+								</div>
+								<span class="index-juli">2.7km</span>
+							</a>
+						</li>
+						<li class="mui-media">
+							<a href="" class="index-lianjie">
+								<img class="mui-pull-left index-width" src="images/cbd.jpg">
+								<div class="index-xinxi-box">
+									<h5><i>KTV</i>歌迷汇量贩式KTV水治店</h5>
+									<p>地址：安阳市水治镇松涛路</p>
+									<div class="index-pingjia">
+										<div class="index-star">
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+										</div>
+										<h6>123评价</h6>
+									</div>
+									<div class="index-icon">
+										<ul>
+											<li class="youhui-1">劵</li>
+											<li class="youhui-2">团</li>
+											<li class="youhui-3">减</li>
+											<li class="youhui-4">免</li>
+											<li class="youhui-5">赌</li>
+										</ul>
+									</div>
+								</div>
+								<span class="index-juli">2.7km</span>
+							</a>
+						</li>
+						<li class="mui-media">
+							<a href="" class="index-lianjie">
+								<img class="mui-pull-left index-width" src="images/cbd.jpg">
+								<div class="index-xinxi-box">
+									<h5><i>KTV</i>歌迷汇量贩式KTV水治店</h5>
+									<p>地址：安阳市水治镇松涛路</p>
+									<div class="index-pingjia">
+										<div class="index-star">
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+										</div>
+										<h6>123评价</h6>
+									</div>
+									<div class="index-icon">
+										<ul>
+											<li class="youhui-1">劵</li>
+											<li class="youhui-2">团</li>
+											<li class="youhui-3">减</li>
+											<li class="youhui-4">免</li>
+											<li class="youhui-5">赌</li>
+										</ul>
+									</div>
+								</div>
+								<span class="index-juli">2.7km</span>
+							</a>
+						</li>
+						<li class="mui-media">
+							<a href="" class="index-lianjie">
+								<img class="mui-pull-left index-width" src="images/cbd.jpg">
+								<div class="index-xinxi-box">
+									<h5><i>KTV</i>歌迷汇量贩式KTV水治店</h5>
+									<p>地址：安阳市水治镇松涛路</p>
+									<div class="index-pingjia">
+										<div class="index-star">
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+											<span class="mui-icon mui-icon-star-filled"></span>
+										</div>
+										<h6>123评价</h6>
+									</div>
+									<div class="index-icon">
+										<ul>
+											<li class="youhui-1">劵</li>
+											<li class="youhui-2">团</li>
+											<li class="youhui-3">减</li>
+											<li class="youhui-4">免</li>
+											<li class="youhui-5">赌</li>
+										</ul>
+									</div>
+								</div>
+								<span class="index-juli">2.7km</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="mui-off-canvas-backdrop"></div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>优惠券</title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/coupon.css" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+	</head>
+
+	<body class="bg-f2f2f2">
+		<!-- 主页面容器 -->
+		<div class="mui-inner-wrap">
+			<!-- 头部标题 -->
+			<header class="mui-bar mui-bar-nav bg-lvse">
+				<a href="index.html" class="mui-icon mui-icon-arrowleft mui-pull-left index-icon-back"></a>
+				<h1 class="mui-title index-biaoti">优惠券</h1>
+				<a href="coupon-me.html" class="mui-pull-right index-qiandao">我的卷包</a>
+			</header>
+
+			<!-- 底部导航 -->
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item mui-active">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">首页</span>
+				</a>
+				<a class="mui-tab-item">
+					<span class="mui-icon mui-icon-videocam"></span>
+					<span class="mui-tab-label">活动</span>
+				</a>
+				<a class="mui-tab-item">
+					<span class="mui-icon mui-icon-email"></span>
+					<span class="mui-tab-label">二手货</span>
+				</a>
+				<a class="mui-tab-item">
+					<span class="mui-icon mui-icon-compose"></span>
+					<span class="mui-tab-label">动态</span>
+				</a>
+				<a class="mui-tab-item">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">我</span>
+				</a>
+			</nav>
+			<!-- 主页面内容容器 -->
+			<div class="mui-content bg-f2f2f2">
+				<!-- 主界面具体展示内容 -->
+
+				<!-- 商品列表 -->
+				<div class="mui-slider">
+					<div class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted bg-fff">
+						<a class="mui-control-item mui-active" href="#item1">最新</a>
+						<a class="mui-control-item" href="#item2">最热</a>
+					</div>
+					<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-6 coupon-xian"></div>
+					<div class="mui-slider-group">
+						<div id="item1" class="mui-slider-item mui-control-content mui-active coupon-border-none">
+							<ul class="mui-table-view coupon-list">
+								<li class="mui-media">
+									<a href="coupon-details.html" class="coupon-lianjie">
+										<img class="mui-pull-left coupon-width" src="images/cbd.jpg">
+										<div class="coupon-xinxi-box">
+											<h5><i>KTV</i>歌迷汇量贩式KTV水治店</h5>
+											<p>百威啤酒12瓶</p>
+											<div class="coupon-pingjia">
+												<span>兑换券</span>
+											</div>
+											<div class="coupon-ju">
+												<span class="mui-icon mui-icon-location-filled coupon-location"></span>
+												<span class="coupon-juli">2.7km</span>
+											</div>
+										</div>										
+									</a>
+									<div class="coupon-liji">
+										<a href="">立即领取</a>
+										<p>还剩10张,12人领取</p>
+									</div>
+								</li>
+								<li class="mui-media">
+									<a href="coupon-details-expired.html" class="coupon-lianjie">
+										<img class="mui-pull-left coupon-width" src="images/cbd.jpg">
+										<div class="coupon-xinxi-box">
+											<h5><i>KTV</i>歌迷汇量贩式KTV水治店</h5>
+											<p>百威啤酒12瓶</p>
+											<div class="coupon-pingjia">
+												<span>10元</span>
+												<h6>仅限酒水</h6>
+											</div>
+											<div class="coupon-ju">
+												<span class="mui-icon mui-icon-location-filled coupon-location"></span>
+												<span class="coupon-juli">2.7km</span>
+											</div>
+										</div>										
+									</a>
+									<div class="coupon-liji">
+										<a href="">立即使用</a>
+										<p>还剩10张,12人领取</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div id="item2" class="mui-slider-item mui-control-content coupon-border-none">
+							<ul class="mui-table-view coupon-list">
+								<li class="mui-media">
+									<a href="" class="coupon-lianjie">
+										<img class="mui-pull-left coupon-width" src="images/cbd.jpg">
+										<div class="coupon-xinxi-box">
+											<h5><i>KTV</i>歌迷汇量贩式KTV水治店</h5>
+											<p>百威啤酒12瓶</p>
+											<div class="coupon-pingjia">
+												<span>体验卷</span>
+												<h6>仅限迷你包</h6>
+											</div>
+											<div class="coupon-ju">
+												<span class="mui-icon mui-icon-location-filled coupon-location"></span>
+												<span class="coupon-juli">2.7km</span>
+											</div>
+										</div>										
+									</a>
+									<div class="coupon-liji">
+										<a href="">立即领取</a>
+										<p>还剩10张</p>
+										<p>12人领取</p>
+									</div>
+								</li>
+								<li class="mui-media">
+									<a href="" class="coupon-lianjie">
+										<img class="mui-pull-left coupon-width" src="images/cbd.jpg">
+										<div class="coupon-xinxi-box">
+											<h5><i>KTV</i>歌迷汇量贩式KTV水治店</h5>
+											<p>百威啤酒12瓶</p>
+											<div class="coupon-pingjia">
+												<span>9.0折</span>
+												<h6>全场折扣</h6>
+											</div>
+											<div class="coupon-ju">
+												<span class="mui-icon mui-icon-location-filled coupon-location"></span>
+												<span class="coupon-juli">2.7km</span>
+											</div>
+										</div>										
+									</a>
+									<div class="coupon-liji">
+										<a href="">立即使用</a>
+										<p>还剩10张</p>
+										<p>12人领取</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="mui-off-canvas-backdrop"></div>
+		</div>
+	</body>
+
+</html>

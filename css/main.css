@@ -1,0 +1,72 @@
+/*!
+ * =====================================================
+ * 头部和底部菜单--自定义css
+ * =====================================================
+ */
+
+.bg-f2f2f2 {
+	background: #f2f2f2;
+}
+ul,li{
+	list-style: none;
+}
+
+/*!
+ * 头部标题 ======================================
+ */
+.bg-lvse {
+	background: #2aa515;
+}
+.index-biaoti {
+	color: #FFFFFF;
+	font-size: 19px;
+	right: 70px !important;
+    left: 70px !important;
+}
+.index-qiandao {
+	margin-left: 10px;
+	line-height: 44px;
+	color: #FFFFFF !important;
+	font-size: 14px !important;
+}
+.index-sousuo {
+	color: #FFFFFF;
+	font-size: 20px !important;
+	margin-top: 2px;
+}
+.index-dizhi {
+	margin-top: 8px;
+	color: #FFFFFF !important;
+	font-size: 14px !important;
+	z-index: 99 !important;
+}
+
+.index-icon-back{
+	color: #FFFFFF !important;
+	font-size: 28px !important;
+    padding-top: 9px !important;
+}
+.index-xiala{
+	color: #FFFFFF !important;
+	font-size: 26px !important;
+}
+.index-gwc{
+	color: #FFFFFF !important;
+	font-size: 24px !important;
+}
+
+.index-tianjia{
+	color: #FFFFFF !important;
+	font-size: 30px !important;
+	margin-top: -5px;
+}
+
+
+
+/*!
+ * 底部导航 ======================================
+ */
+.mui-active {
+	color: #2aa515 !important;
+}
+

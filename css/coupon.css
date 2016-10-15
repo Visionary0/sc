@@ -1,0 +1,155 @@
+/*!
+ * =====================================================
+ * 优惠劵自定义css
+ * =====================================================
+ */
+.bg-fff{
+	background: #FFFFFF !important;
+}
+/*!
+ * 最新-最热-标题 ======================================
+ */
+.coupon-xian{
+	background: #2aa515 !important;
+}
+
+
+/*!
+ * 商品列表 ======================================
+ */
+.coupon-border-none{
+	border: none !important;
+}
+.coupon-list{
+	background-color: #f2f2f2;
+}
+.coupon-list li {
+	padding-right: 65px;
+	position: relative;
+	padding: 10px 10px;
+	background: #fff;
+    margin: 4px 2px;
+    border-radius: 3px;
+}
+img.coupon-width {
+	width: 90px !important;
+	height: 90px;
+	margin-right: 6px;
+}
+.coupon-xinxi-box h5{
+    margin-top: 1px;
+    font-size: 14px;
+    color: #242424;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.coupon-xinxi-box h5 i{
+    font-style: normal;
+    font-size: 8px;
+    background: #47BDB1;
+    padding: 2px 6px;
+    font-weight: normal;
+    color: #FFFFFF;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+.coupon-xinxi-box p{
+	margin-bottom: 2px;
+	font-size: 12px;
+}
+.coupon-pingjia{
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.coupon-pingjia span {
+	display: block;
+    float: left;
+    font-size: 10px;
+    color: #2AA515;
+    border: 1px solid #2AA515;
+    border-radius: 3px;
+    line-height: 16px;
+    width: 42px;
+    text-align: center;
+}
+.coupon-pingjia h6 {
+	display: block;
+	float: left;
+	font-size: 12px;
+	background: #f1836a;
+    color: #fff;
+    margin-top: 1px;
+    padding: 2px 4px;
+}
+.coupon-ju{
+	overflow: hidden;
+}
+.coupon-ju span{
+	display: block;
+	float: left;
+	font-size: 12px;	
+}
+.coupon-ju .coupon-location{
+    margin-right: 3px;
+    color: #b3b3b3;
+    margin-top: 2px;
+}
+.coupon-ju .coupon-juli {   
+    color: #b3b3b3;
+}
+
+.coupon-liji {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+.coupon-liji a{
+	padding: 4px 12px;
+    background: #EA8010;
+    color: #FFFFFF;
+    border-radius: 3px;
+    margin-bottom: 1px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+.coupon-liji p{
+	font-size: 8px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 12px;
+    display: block;
+    text-align: center;
+}
+
+
+
+/*!
+ * =====================================================
+ * 我的卷包自定义css
+ * =====================================================
+ */
+.coupon-me-icon{
+	font-family: Muiicons;
+	font-size: 20px;
+}
+.coupon-me-ysy{
+	background: #f1836a !important;
+	width: 72px !important;
+	text-align: center;
+}
+.coupon-me-ygq{
+	background: #a1a1a1 !important;
+	width: 72px !important;
+	text-align: center;
+}
+.coupon-me-ljsy{
+	background: #2aa515 !important;
+	width: 72px !important;
+	text-align: center;
+}
+
+
+
+
+
